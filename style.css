@@ -1,0 +1,203 @@
+
+/* Estilo Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 144px;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button,
+.btn-projeto button,
+input[type=submit] {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+}
+
+
+
+/* ESTILO DO CABEÇALHO */
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #000;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #7c7c7c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff; 
+    transform: scale(1.05);
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button:hover,
+.btn-projeto button:hover,
+input[type=submit]:hover {
+    box-shadow: 0px 0px 8px;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO BANNER */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.banner h1 {
+    font-size: 72px;
+    color: #FFF;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #fff;
+}
+
+
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+/* FORMAÇÕES */
+
+section.formacoes{
+    padding: 100px 4%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.interface{
+    color: #fff;
+}
+
+/* CONTATO */
+
+section.contato{
+    padding: 100px 4%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-container form {
+    flex: 1;
+}
+
+.form-container .form-text {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.form-container textarea, .form-container input {
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.form-container textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #fff;
+}
+
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer p {
+    color: #fff;
+}
